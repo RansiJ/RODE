@@ -1,0 +1,19 @@
+site_name: Solucion Numerica de ODE's
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
+
+nav:
+  - index.md
+  - references.md
+
+extra_javascript:
+  - ./assets/mathjax.js
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+      block_tag: 'pre'
